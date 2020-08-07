@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Island
+  - Bliudings
+  - BuyableObject
+  - Weather
+  - SaeUnits
+  - Boats
+  - ConstructionArea
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Island
+  - ConstuctionArea
+  - Buildings
+  - Boats
+  - Rebels
+  - Weather
+  - SeaUnits
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 93256005
+    locked: 0
+  - name: Island
+    uniqueID: 2533303853
+    locked: 0
+  - name: UnitsAndBuildings
+    uniqueID: 3327469085
+    locked: 0
+  - name: WeatherAndSeaUnits
+    uniqueID: 3812852155
+    locked: 0
+  - name: UI
+    uniqueID: 2838316451
+    locked: 0

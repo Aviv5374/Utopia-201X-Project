@@ -1,0 +1,552 @@
+fileFormatVersion: 2
+guid: 6f606f1a297669a47a8a4896fac9b7b2
+timeCreated: 1506234754
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SNES - Earthbound Mother 2 - Buildings_0
+    21300002: Fort
+    21300004: SNES - Earthbound Mother 2 - Buildings_2
+    21300006: SNES - Earthbound Mother 2 - Buildings_3
+    21300008: SNES - Earthbound Mother 2 - Buildings_4
+    21300010: SNES - Earthbound Mother 2 - Buildings_5
+    21300012: SNES - Earthbound Mother 2 - Buildings_6
+    21300014: SNES - Earthbound Mother 2 - Buildings_7
+    21300016: SNES - Earthbound Mother 2 - Buildings_8
+    21300018: SNES - Earthbound Mother 2 - Buildings_9
+    21300020: House1
+    21300022: SNES - Earthbound Mother 2 - Buildings_11
+    21300024: SNES - Earthbound Mother 2 - Buildings_12
+    21300026: Hospital
+    21300028: House3
+    21300030: School
+    21300032: SNES - Earthbound Mother 2 - Buildings_16
+    21300034: SNES - Earthbound Mother 2 - Buildings_17
+    21300036: House2
+    21300038: SNES - Earthbound Mother 2 - Buildings_19
+    21300040: SNES - Earthbound Mother 2 - Buildings_20
+    21300042: SNES - Earthbound Mother 2 - Buildings_21
+    21300044: SNES - Earthbound Mother 2 - Buildings_22
+    21300046: SNES - Earthbound Mother 2 - Buildings_23
+    21300048: SNES - Earthbound Mother 2 - Buildings_24
+    21300050: SNES - Earthbound Mother 2 - Buildings_25
+    21300052: SNES - Earthbound Mother 2 - Buildings_26
+    21300054: SNES - Earthbound Mother 2 - Buildings_27
+    21300056: SNES - Earthbound Mother 2 - Buildings_28
+    21300058: SNES - Earthbound Mother 2 - Buildings_29
+    21300060: SNES - Earthbound Mother 2 - Buildings_30
+    21300062: SNES - Earthbound Mother 2 - Buildings_31
+    21300064: SNES - Earthbound Mother 2 - Buildings_32
+    21300066: SNES - Earthbound Mother 2 - Buildings_33
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SNES - Earthbound Mother 2 - Buildings_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 371
+        width: 136
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Fort
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 370
+        width: 104
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Earthbound Mother 2 - Buildings_2
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 371
+        width: 104
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Earthbound Mother 2 - Buildings_3
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 372
+        width: 192
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Earthbound Mother 2 - Buildings_4
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 417
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Earthbound Mother 2 - Buildings_5
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 417
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Earthbound Mother 2 - Buildings_6
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 247
+        width: 160
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Earthbound Mother 2 - Buildings_7
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 244
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Earthbound Mother 2 - Buildings_8
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 245
+        width: 112
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Earthbound Mother 2 - Buildings_9
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 242
+        width: 160
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: House1
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 329
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Earthbound Mother 2 - Buildings_11
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 328
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Earthbound Mother 2 - Buildings_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 121
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hospital
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 125
+        width: 152
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: House3
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 175
+        width: 80
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: School
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 123
+        width: 120
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Earthbound Mother 2 - Buildings_16
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 196
+        width: 129
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Earthbound Mother 2 - Buildings_17
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 12
+        width: 159
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: House2
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 16
+        width: 71
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Earthbound Mother 2 - Buildings_19
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 18
+        width: 96
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Earthbound Mother 2 - Buildings_20
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 90
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Earthbound Mother 2 - Buildings_21
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 84
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Earthbound Mother 2 - Buildings_22
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 90
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Earthbound Mother 2 - Buildings_23
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 86
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Earthbound Mother 2 - Buildings_24
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 70
+        width: 160
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Earthbound Mother 2 - Buildings_25
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 54
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Earthbound Mother 2 - Buildings_26
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 48
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Earthbound Mother 2 - Buildings_27
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 54
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Earthbound Mother 2 - Buildings_28
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 54
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Earthbound Mother 2 - Buildings_29
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 54
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Earthbound Mother 2 - Buildings_30
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 54
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Earthbound Mother 2 - Buildings_31
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 54
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Earthbound Mother 2 - Buildings_32
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 18
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Earthbound Mother 2 - Buildings_33
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 14
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
