@@ -1,0 +1,187 @@
+Press Escape to close this menu.
+UTOPIA
+DevMode Edition
+Recreated by Bluish-Green Productions
+Made with Game Maker 8
+
+ OBJECT OF THE GAME
+
+Earn more points than your opponent by 
+improving the living conditions on your island to make the inhabitants as happy as possible.
+
+ CONTROLS
+
+Press F4 to switch between screen modes (Maximize/ Restore Down)
+Press the Control key to toggle Developer mode on or off (For instructions on Developer Mode, see below)
+Press Backspace when Developer Mode is on to open a text entry field
+ Player 1:
+Up: W key
+Left: A key
+Down: S key
+Right: D key
+Select: Spacebar
+
+ Player 2:
+Up: Up arrow
+Left: Left arrow key
+Down: Down arrow key
+Right: Right arrow key
+Select: Enter key
+
+ SETTING TERM OF OFFICE AND TURN LENGTH
+
+1. Use Arrow keys to select NUMBER OF ROUNDS (from 1 to 999). 
+   This is your term of office. Then press ENTER.
+
+2. Use Arrow keys to select length of each round (from 1 to 999 seconds).
+   Then press ENTER.
+
+ THE INTERFACE:
+
+You will see an interface overlay surrounding the game screen. Each player sees the following:
+G - Gold
+S - Score
+P - Population
+R - Resources
+
+At the center-top of the screen you will also see the Term of Office and 
+Turn length which you specified on the previous screen.
+
+O - Term of Office
+T - Turn Length
+
+
+
+ STARTING THE GAME:
+
+Use the cursors (Green for Player 1 and Red for Player 2) 
+to select things to build from the left side of the screen 
+for Player 1 and right side of the screen for Player 2. 
+To build something, highlight the item with the Cursor and press the Select key (Spacebar for Player 1, Enter key for Player 2); 
+you must have enough Gold to purchase the item. 
+Position the Cursor over a plot of land on your island and press the Select key again. 
+Everything except for Rebels, Fishing Boats, and PT Boats should then appear in the place you had selected.
+Each building has a unique purpose and costs gold to build. 
+The amount of Gold you have does not factor into your score, it is meant to be spent. 
+Each player starts the game with 100 gold bars.
+
+ ITEMS:
+
+1. FORT (50 gold bars). Protection: Guards surrounding land area against rebels. 
+
+2. FACTORY (40 gold bars). Income/Points: Earns at least 4 gold bars per round. 
+                            Pollution from factories decreases population growth at a rate of -2 per factory.
+						    Each Factory provides 1000 jobs. Increases repair rate of all buildings.
+
+3. ACRE OF CROPS (3 gold bars). Income/Points: When rained upon, yields added revenue (1 Gold per acre). 
+                                     An acre of crops only lasts 3-5 rounds. Each acre feeds 500 people.
+
+4. SCHOOL (35 gold bars). Productivity/Points: Increases productivity of factories by 1. 
+                                               Each School provides education to 1000 people.
+
+5. HOSPITAL (75 gold bars). Productivity/Points: Increases population growth at a rate of +3. 
+                                                 Increases productivity of factory by 3. 
+												 Each Hospital provides health care to 500 people.
+
+6. HOUSING PROJECT (60 gold bars). Points: Each Housing Project provides housing to 500 people.
+
+7. REBEL SOLDIERS (30 gold bars). Aggression: When you "build" a Rebel it will immediately jump to a random empty space on your opponent's island. 
+                                              Rebels decrease Happiness by 2 and the amount of Gold earned per turn by 2 each. 
+								              A maximum of 5 rebels can appear on an island at a time. 
+											  Rebels will automatically spawn on an island where the Happiness is lower than 50 and the game is more than half over. 
+											  Rebels are not repaired by factories and will disappear over time if your Happiness is more than 60.
+
+8. PT BOAT (40 gold bars). Protection/Aggression: When you build a PT Boat it will appear in your docks, not in the space you select. 
+                                                  It can be used to halt Pirates and sink your opponent's fishing boat.
+
+9. FISHING BOAT (25 gold bars). Income/Points: When you build a Fishing Boat it will appear in your docks, not in the space you select. 
+                                               It automatically feeds 500 people and earns 1 Gold bar per round. If moved over a school of fish, 
+											   it earns 1 Gold bar for every second remaining over fish.
+
+ CONTROLLING BOATS:
+
+To control a boat, position your cursor over it and press the Select Key (Spacebar for Player 1, Enter key for Player 2). 
+You will gain control of the boat, which you move in the same way as your cursor. 
+To regain control of the cursor, press the Select Key again.
+
+ COMPUTER CONTROLLED ELEMENTS:
+
+Rain clouds: White in colour, these provide water for crops.
+Pirate ships: Black boats which sink any Fishing Boat they come in contact with. 
+              They can be stopped with PT Boats but only sunk by Tropical Storms and Hurricanes.
+Tropical storms: Black clouds which provide water for crops, but damage everything else. 
+                 Only the presence of Factories on your island contributes to repairing a damaged item.
+Schools of fish: Groups of green dots in the ocean, for fishing.
+Hurricanes: Spinning white storms that deal lots of damage to everything.
+
+
+ BETWEEN ROUNDS:
+
+At the conclusion of each round, all action freezes for a few seconds. 
+You hear a "time's up" signal. 
+The current Happiness of your island is added to your score. 
+When the game resumes, action picks up where it left off. 
+You automatically earn 10 GOLD BARS per round, so long as no Rebels are present on your island. 
+Each Rebel decreases this amount by 2.
+
+	SCORE:
+
+The largest score possible each round is 100, which can only be attained if the population of your island is 100% happy. 
+"Happiness" is determined by the following factors:
+Equal or greater amount of resources to population - 15% of score
+1 Housing Project per every 500 people - 15% of score
+1 School per every 1000 people - 10% of score
+1 Hospital per every 500 people - 25% of score
+1 Factory per every 1000 people (for jobs) - 15% of score
+No rebels - 10% of score
+If population growth rate is positive, you get +10 score. 
+If growth rate is negative, you get -10 score. 
+Keep an eye on your Population to determine if the growth rate is positive or negative, 
+it should change every 2 seconds unless your growth rate is 0.
+
+Developer Mode:
+When switched on, Developer Mode gives access to functions otherwise unavailable in Utopia. 
+All buildings draw their own healthbars, 
+Pirate ships and Fish draw their destinations (although they may not arrive at them) and rain clouds, 
+tropical storms and hurricanes all draw their fixed paths (which they will follow). 
+In addition to this, you are given a text input tool to alter an of the local variables of the game's controller object. 
+Below are a list of all the local variables you can edit and their function. 
+Typing in a variable not listed below will result in an invalid entry.
+
+Variable Name  : Description
+term_of_office : The number of turns in the game
+turn_length    : The length of each turn in the game
+devmode        : Turns Devmode on or off (should only be set to "0" off, or "1" on)
+rebel_spawn    : The turn number at which rebels begin to spawn
+gold1          : The amount of gold player 1 has.
+gold2          : The amount of gold player 2 has.
+score1         : The amount of points player 1 has.
+score2         : The amount of points player 2 has.
+population1    : The population player 1 has.
+population2    : The population player 2 has.
+resources1     : The resources player 1 has.
+resources2     : The resources player 2 has.
+happiness1     : The happiness player 1 has.
+happiness2     : The happiness player 2 has.
+productivity1  : The productivity player 1 has. (influences factory gold production per turn)
+productivity2  : The productivity player 2 has.
+housing1       : The housing player 1 has. (500 for each house)
+housing2       : The housing player 2 has.
+schools1       : The school availability player 1 has. (1000 for each school)
+schools2       : The school availability player 2 has.
+jobs1          : The number of jobs player 1 has. (1000 for each factory)
+jobs2          : The number of jobs player 2 has.
+hospital1      : The hospital availability player 1 has. (500 for each hospital)
+hospital2      : The hospital availability player 2 has.
+growth_rate1   : The growth rate of player 1's population.
+growth_rate2   : The growth rate of player 2's population.
+happy_score1   : The component of the "happiness" score determined by player 1's growth rate.
+happy_score2   : The component of the "happiness" score determined by player 2's growth rate.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Original game created by Mattel, (c) 1981, 1997 Intellivision Productions, Inc.
+Design, program: Don Daglow
+Graphics: Kai Tran, Don Daglow
+Sound: Russ Lieblich (sound effects used in the game are from the original)
+
+Special Thanks to Rooster Teeth Productions, Geoff and Burnie for providing the inspiration to make this game.
