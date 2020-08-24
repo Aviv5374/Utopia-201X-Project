@@ -1184,7 +1184,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Chose number of rounds (1-50)
+  m_Text: Choose number of rounds (1-50)
 --- !u!222 &578668019
 CanvasRenderer:
   m_ObjectHideFlags: 0
